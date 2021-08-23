@@ -1,0 +1,18 @@
+.bar{
+  width: 20%;
+  height: 4px;
+  background-color: var(--bg-gray);
+  margin-top: 1rem;
+}
+
+.bar:first-child{
+  border-radius: 8px 0 0 8px;
+}
+
+.bar:last-child{
+  border-radius: 0 8px 8px 0;
+}
+
+.bar.active{
+  background-color: var(--yellow);
+}

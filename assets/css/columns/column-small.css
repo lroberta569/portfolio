@@ -1,0 +1,8 @@
+.column__small{
+  margin-top: 4.8rem;
+  width: 25%;
+}
+
+.column__small > div:last-child{
+  margin-top: 4rem;
+}

@@ -1,0 +1,9 @@
+.header__title{
+  font-family: 'Merriweather', serif;
+  font-size: 4.2rem;
+  color: var(--text);
+}
+
+.age{
+  font-weight: normal;
+}
