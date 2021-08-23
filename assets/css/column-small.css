@@ -1,0 +1,51 @@
+main{
+  padding: 4% 6%;
+  display: flex;
+}
+
+.column__small{
+  margin-top: 4.8rem;
+  /* width: 28.8rem; */
+  width: 25%;
+}
+
+.subtitle{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.line{
+  width: 80px;
+  border-top: 2px solid var(--yellow);
+}
+
+.professional__item{
+  display: flex;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+.professional__image{
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin: .4rem 1.6rem 0 0;
+}
+
+.professional__contain{
+  line-height: 2.4rem;
+  font-size: 1.3rem;
+}
+
+.professional__title{
+  font-weight: normal;
+}
+
+.professional__description{
+  color: var(--text-gray);
+}
+
+.training{
+  margin-top: 4rem;
+}

@@ -1,0 +1,9 @@
+footer{
+  background-color: var(--bg-black);
+  padding: 4rem;
+}
+
+.footer__description{
+  text-align: center;
+  font-size: 1.4rem;
+}

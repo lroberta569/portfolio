@@ -1,0 +1,25 @@
+:root{
+  --bg-black: #181A1B;
+  --bg-gray: #272A2C;
+  --text: #fff;
+  --text-gray: #828282;
+  --yellow: #E3C567
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--bg-gray);
+  font-family: "Open Sans", sans-serif;
+  color: var(--text);
+}

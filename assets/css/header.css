@@ -1,0 +1,54 @@
+header{
+  background-color: var(--bg-black);
+  display: flex;
+  align-items: center;
+  padding: 3.2rem 6.4rem;
+}
+
+.header__image{
+  max-width: 300px;
+  margin-right: 2.4rem;
+  margin-bottom: -10rem;
+  border-radius: 50%;
+  border: 4px solid var(--yellow);
+}
+
+.header__contain{
+  margin-top: 3rem;
+  line-height: 1.5;
+}
+
+.header__title{
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+  color: var(--text);
+}
+
+.header__title-name{
+  font-weight: normal;
+}
+
+.header__description{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  color: var(--text-gray);
+}
+
+.header__link{
+  display: inline-block;
+  color: var(--yellow);
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: .6rem;
+  border-radius: 8px;
+  border: 2px solid var(--yellow);
+  cursor: pointer;
+
+  transition: .2s all;
+}
+
+.header__link:hover{
+  color: var(--bg-black);
+  background-color: var(--yellow);
+}
