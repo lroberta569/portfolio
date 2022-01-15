@@ -6,13 +6,12 @@ function animationScroll() {
         reset: false
     });
 
-    sr.reveal('.header', { delay: 150 })
-    sr.reveal('.information', { delay: 400 })
-    sr.reveal('.about', { delay: 500 })
-    sr.reveal('.contact', { delay: 600 })
-    sr.reveal('#projetos', { delay: 700 })
-    sr.reveal('#servicos', { delay: 500 })
-    sr.reveal('#skills', { delay: 900 })
+    sr.reveal('.information', { delay: 200 })
+    sr.reveal('.about', { delay: 300 })
+    sr.reveal('.contact', { delay: 300 })
+    sr.reveal('#projetos', { delay: 300 })
+    sr.reveal('#servicos', { delay: 300 })
+    sr.reveal('#skills', { delay: 300 })
 
 }
 
@@ -33,5 +32,6 @@ function activeMenu() {
 const btn = document.querySelector('.btn-mobile')
 
 btn.addEventListener("click", activeMenu)
+
 scrollTop()
 animationScroll()

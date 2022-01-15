@@ -320,6 +320,14 @@ body {
         }
 
         &-button {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 450px){
+    .mention {
+        &-button {
             border: none;
             border-radius: 50%;
             width: 40px;
@@ -335,13 +343,13 @@ body {
             cursor: pointer;
             transition: all 0.2s;
 
+
             &:hover {
                 filter: brightness(0.9);
             }
         }
     }
 }
-
 @media (min-width: 650px) {
     .title {
         margin: 12.7rem 0 3rem;
@@ -440,7 +448,7 @@ body {
             justify-content: center;
             position: absolute;
             padding: 2rem 0;
-            top: 35px;
+            top: 75px;
             left: 0;
             background-color: $gray-200;
             width: 100%;
