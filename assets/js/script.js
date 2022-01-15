@@ -16,10 +16,22 @@ function animationScroll() {
 
 }
 
-const btn = document.querySelector('.mention-button')
+function scrollTop() {
+    const btn = document.querySelector('.mention-button')
 
-btn.addEventListener('click', () => {
-    window.scrollTo(0, 0)
-})
+    btn.addEventListener('click', () => {
+        window.scrollTo(0, 0)
+    })
+}
 
+function activeMenu() {
+    const nav = document.querySelector('.nav')
+
+    nav.classList.toggle('active')
+}
+
+const btn = document.querySelector('.btn-mobile')
+
+btn.addEventListener("click", activeMenu)
+scrollTop()
 animationScroll()
